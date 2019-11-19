@@ -2,32 +2,32 @@
 
 # SITE SETTINGS
 # title of site appears in banner
-title: CollectionBuilder-GH 
+title: CollectionBuilder_Test
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: collection-metadata  
+metadata: birds  
 # repository is the github repository's full url: 
 # replace CollectionBuilder with your GitHub username and replace 'collectionbuilder-gh' with the name of your repository
-repository: https://github.com/CollectionBuilder/collectionbuilder-gh
+repository: https://ike-bean.github.com/CollectionBuilder_test
 
 # WEBSITE HEADER and HEAD metadata for SEO
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: a template for creating simple digital exhibits
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-GH is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
+description: "CollectionBuilder is a template for creating small digital collection exhibits on GitHub Pages designed for teaching digital library skills"
 # keywords appear in meta tags
-keywords: "university of idaho, digital collections, digital humanities"
+keywords: "Allegheny College, Digital Collections, Awesome"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: CollectionBuilder
 
 
 # HOME PAGE SECTION
 # give full filename including folder. This image will also appear in meta tags for search and social media
-home-banner-image: "objects/test011.jpg"
+home-banner-image: "objects/2006-06-24_GreatBlueHeron.jpg"
 # enter object-id of the above item in order to link to the featured image
 home-banner-image-objectid: test011 
 # give title of the image for accessibility
-home-banner-image-title: Snowstorm Concentrator, Troy, Montana. No. 6. 
+home-banner-image-title: Weebles Wobble but they don't fall down 
 # optional: add extra padding around collection title for a larger image feature. 
 home-title-y-padding: # Default is 8em
 # optional: change position of image, center, top, bottom
@@ -49,8 +49,8 @@ mediatypes: images;documents;sound;video #options[documents,images,video,sound,d
 about-page: true # options [true / false] 
 # Featured image on About page - if left blank, CB will use image featured on the home page
 # give filename including folder
-about-featured-image: objects/test012.jpg
-about-featured-image-alt: "Administration Building, University of Idaho"
+about-featured-image: objects/2018-06-07_BaldEagle_Kodiak_AK.jpg
+about-featured-image-alt: "A bald eagle hunting majestically for prey"
 
 # BROWSE PAGE
 # see _data/browse-config.csv for field display options
